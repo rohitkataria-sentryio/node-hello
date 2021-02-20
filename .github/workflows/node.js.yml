@@ -43,3 +43,4 @@ jobs:
          SENTRY_PROJECT: ${{ secrets.SENTRY_PROJECT }}
        with:
          environment: production
+         version: node-hello-1.0
