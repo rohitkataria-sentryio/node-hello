@@ -15,7 +15,9 @@ const server = http.createServer((req, res) => {
 });
 
 try {
+ console.log("hello");
   nonExistentFunction();
+  anotherFunction();
 } catch (error) {
   console.error(error);
 }
